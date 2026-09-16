@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #d4d6d7;
+}
+
+header {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 8px 0 0;
+    color: green;
+}
+
+main {
+    background-color: grey;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#chat {
+    background: white;
+    min-height: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+#question {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#askButton {
+    padding: 10px 15px;
+    margin-left: 8px;
+    /* border: none; */
+    border-radius: 50%;
+    background: white;
+    color: red;
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+}
